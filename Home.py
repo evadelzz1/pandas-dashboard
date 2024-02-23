@@ -4,8 +4,9 @@ import os
 def main():
     st.set_page_config(
         page_title = "Pandas Apps",
-        page_icon = ":bar_chart:",
-        layout = "wide"
+        page_icon = "🎛️",   # :bar_chart:
+        layout = "wide",
+        initial_sidebar_state="expanded"
     )
 
     with st.sidebar:
@@ -32,6 +33,8 @@ def main():
 
     st.markdown('<p class="custom-font">App1. Adidas Interactive Sales Dashboard</p>', unsafe_allow_html=True)
     st.markdown('<p class="custom-font">App2. SuperStore Dashboard</p>', unsafe_allow_html=True)
-
+    st.markdown('<p class="custom-font">App3. US Population Dashboard</p>', unsafe_allow_html=True)
+    st.markdown('<p class="custom-font">App4. Sales Dashboard</p>', unsafe_allow_html=True)
+    
 if __name__ == "__main__":
     main()

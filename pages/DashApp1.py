@@ -5,7 +5,11 @@ from PIL import Image
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(layout="wide")
+#######################################
+# PAGE SETUP
+#######################################
+st.set_page_config(page_title="Adidas", page_icon=":bar_chart:", layout="wide")
+
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 image = Image.open('./data/adidas-logo.jpg')
 
