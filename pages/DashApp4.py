@@ -1,9 +1,10 @@
-import random
-import duckdb
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit as st
+import random
+import duckdb
+
 
 #######################################
 # PAGE SETUP
@@ -11,6 +12,7 @@ import streamlit as st
 st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
 st.title("Sales Dashboard")
+st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 with st.sidebar:
     st.write("Data load : (:red[**FinancialDataClean.xlsx**])")

@@ -12,7 +12,7 @@ Setting up a Virtual Environment
 
     pyenv local 3.11.6
 
-    echo '.env '  >> .gitignore
+    echo '.env ' >> .gitignore
     echo '.venv' >> .gitignore
 
     python -m venv .venv
