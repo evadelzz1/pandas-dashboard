@@ -10,7 +10,7 @@ Setting up a Virtual Environment
 
     pyenv versions
 
-    pyenv local 3.11.6
+    pyenv local 3.12.5
 
     echo '.env ' >> .gitignore
     echo '.venv' >> .gitignore
@@ -25,7 +25,7 @@ Install the required dependencies
     
     pip install -r requirements.txt
     
-    pip freeze | tee requirements.txt.detail
+    # pip freeze | tee requirements.txt.detail
 
 Running the Application
 

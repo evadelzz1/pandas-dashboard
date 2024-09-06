@@ -3,13 +3,10 @@ import pandas as pd
 import altair as alt
 import plotly.express as px
 
-#######################################
-# PAGE SETUP
-#######################################
 st.set_page_config(page_title="US Population Dashboard", page_icon=":bar_chart:", layout="wide")
 
-st.title("US Population Dashboard")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
+st.title("US Population Dashboard")
 
 st.divider()    # ---------------------
 
